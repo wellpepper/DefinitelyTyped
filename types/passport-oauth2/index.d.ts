@@ -4,6 +4,7 @@
 //                 Wang Zishi <https://github.com/WangZishi>
 //                 Eduardo AC <https://github.com/EduardoAC>
 //                 Ivan Fernandes <https://github.com/ivan94>
+//                 Jahyen C <https://github.com/jahyen>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.3
 
@@ -12,7 +13,7 @@ import { Strategy } from 'passport';
 import { OAuth2 } from 'oauth';
 import { OutgoingHttpHeaders } from 'http';
 
-declare class OAuth2Strategy extends Strategy {
+declare class OAuth2Strategy implements Strategy {
     name: string;
 
     /**
